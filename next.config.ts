@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const isGitHubPages = process.env.GITHUB_ACTIONS === "true";
-const repositoryName = "intervention-station-tutoring";
+const repositoryName = "interventionstation-tutoring";
 
 const nextConfig: NextConfig = {
   output: isGitHubPages ? "export" : undefined,

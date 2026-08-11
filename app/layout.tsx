@@ -3,9 +3,9 @@ import "./globals.css";
 
 const isGitHubPages = process.env.GITHUB_ACTIONS === "true";
 const siteUrl = isGitHubPages
-  ? "https://teachwithmrc.github.io/intervention-station-tutoring"
+  ? "https://teachwithmrc.github.io/interventionstation-tutoring"
   : "https://intervention-station-tutoring.spconnolly7.chatgpt.site";
-const assetBase = isGitHubPages ? "/intervention-station-tutoring" : "";
+const assetBase = isGitHubPages ? "/interventionstation-tutoring" : "";
 const title = "Intervention Station | 1:1 Reading & Math Intervention";
 const description = "Diagnostic-first reading and math tutoring that finds the gap, builds the skill, and shows the growth.";
 
